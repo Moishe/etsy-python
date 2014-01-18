@@ -299,7 +299,7 @@ class API(object):
         
 
     def _get_url(self, url, http_method, content_type, body):
-        self.log("API._get_url: url = %r" % url)
+        print "_get_url: url = %r" % url
         with closing(urllib2.urlopen(url)) as f:
             return f.read() 
   

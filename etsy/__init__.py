@@ -1,5 +1,5 @@
 from _v2 import EtsyV2 as Etsy
-from etsy_env import EtsyEnvSandbox, EtsyEnvProduction
+from etsy_env import EtsyEnvProduction
 
 
 __version__ = '0.3.1'
