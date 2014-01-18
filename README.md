@@ -32,7 +32,7 @@ Python 2.5.1 (r251:54863, Feb  6 2009, 19:02:12)
 Type "help", "copyright", "credits" or "license" for more information.
 >>> from etsy import Etsy
 >>> api = Etsy('YOUR-API-KEY-HERE')
->>> api.getFrontFeaturedListings(offset=10, limit=1)[0]['title']
+>>> api.findAllFeaturedListings(offset=10, limit=1)[0]['title']
 'Artists Eco Journal -  Landscape Watercolor - Rustic Vegan Hemp and Recycled Rubber'
 </pre>
 
